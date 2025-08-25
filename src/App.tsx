@@ -137,7 +137,7 @@ function App() {
       {/* Footer */}
       <footer className="mt-16 py-6 bg-gradient-to-r from-amber-100 to-yellow-100 border-t-4 border-orange-200 relative z-20">
         <div className="text-center text-amber-700">
-          <p className="text-lg font-medium">వన్దేమాతరమ్ | Vande Mataram</p>
+          <p className="text-lg font-medium">దేశ భాషలందు తెలుగు లెస్స</p>
         </div>
       </footer>
 
