@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Clock, Play, Pause } from 'lucide-react';
+import { Play, Pause } from 'lucide-react';
 
 interface Round3Props {
   onRoundComplete: () => void;
@@ -13,7 +13,7 @@ const Round3: React.FC<Round3Props> = ({ onRoundComplete, onShowRoundSelector })
   const [isCompleted, setIsCompleted] = useState(false);
 
   useEffect(() => {
-    let interval: NodeJS.Timeout | null = null;
+    let interval: ReturnType<typeof setInterval> | null = null;
 
     if (isActive && timeLeft > 0) {
       interval = setInterval(() => {
