@@ -32,7 +32,7 @@ export const round1Questions: Question[] = [
   },
   {
     id: 6,
-    text: "అమ్మ బడి - చదువుల బడి అని ఎందుకంటారు?"
+    text: "అమ్మ ఒడి - చదువుల బడి అని ఎందుకంటారు?"
   },
   {
     id: 7,
